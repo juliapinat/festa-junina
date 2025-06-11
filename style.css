@@ -1,0 +1,46 @@
+body {
+      background: #fff8dc;
+      font-family: 'Comic Sans MS', cursive;
+      color: #5c3d00;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ffcc00;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 5px dashed #d2691e;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    .bandeirinhas {
+      text-align: center;
+      padding: 10px 0;
+      background: repeating-linear-gradient(
+        45deg,
+        red,
+        red 10px,
+        yellow 10px,
+        yellow 20px,
+        green 20px,
+        green 30px,
+        blue 30px,
+        blue 40px
+      );
+      color: white;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #ffcc00;
+      text-align: center;
+      padding: 10px;
+      border-top: 5px dashed #d2691e;
+    }
