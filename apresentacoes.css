@@ -9,10 +9,11 @@ body {
 }
 
 header {
-  background-color: #ff6347;
+  background-color:#ffcc00;
   color: white;
   padding: 20px 10px;
   text-align: center;
+  border-bottom: 5px dashed #d2691e;
 }
 
 nav ul {
