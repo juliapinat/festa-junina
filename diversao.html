@@ -2,77 +2,109 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8" />
-    <title>Diversão na Festa Junina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diversão na Festa Julhina</title>
     <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Corpo da página */
         body {
-            background-color: #ffffff; /* Fundo branco */
-            font-family: Arial, sans-serif;
-            color: orange; /* Cor das letras */
-            margin: 20px;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background: linear-gradient(135deg, #ffcc70, #ff6f61);
+            color: #fff;
+            line-height: 1.6;
         }
 
-        h1 {
+        /* Cabeçalho */
+        header {
+            background-color: #ff4b2b;
+            padding: 20px;
             text-align: center;
-            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
 
-        /* Enfeites quadriculados */
-        .enfeite {
-            width: 50px;
-            height: 50px;
-            display: inline-block;
-            margin: 5px;
-            background-image: linear-gradient(45deg, #ff7f50 25%, transparent 25%), 
-                              linear-gradient(-45deg, #ff7f50 25%, transparent 25%),
-                              linear-gradient(45deg, transparent 75%, #ff7f50 75%),
-                              linear-gradient(-45deg, transparent 75%, #ff7f50 75%);
-            background-size: 20px 20px;
-            background-position: 0 0, 0 10px, 10px -10px, -10px 0;
-            background-repeat: repeat;
-            border-radius: 5px;
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px #000;
         }
 
-        /* Estilo para as seções */
-        section {
-            margin-bottom: 30px;
+        /* Seção principal */
+        main {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
         }
 
+        /* Título das brincadeiras */
         h2 {
-            border-bottom: 2px solid orange;
-            padding-bottom: 5px;
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #fff;
+            text-shadow: 1px 1px 2px #000;
+        }
+
+        /* Lista de brincadeiras */
+        .brincadeiras {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        /* Cartões de brincadeiras */
+        .card {
+            background-color: #fff;
+            color: #333;
+            width: 250px;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #ff4b2b;
+            text-align: center;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #ff4b2b;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 1.2em;
+            box-shadow: 0 -4px 8px rgba(0,0,0,0.2);
+        }
+
+        /* Responsividade */
+        @media(max-width: 700px) {
+            .brincadeiras {
+                flex-direction: column;
+                align-items: center;
+            }
+            .card {
+                width: 80%;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>Diversão na Festa Junina</h1>
-    
-    <!-- Enfeites quadriculados -->
-    <div style="text-align: center; margin-bottom: 20px;">
-        <div class="enfeite"></div>
-        <div class="enfeite"></div>
-        <div class="enfeite"></div>
-        <div class="enfeite"></div>
-        <div class="enfeite"></div>
-    </div>
-
-    <section>
-        <h2>Brincadeira: Bola na Boca do Palhaço</h2>
-        <p>Essa brincadeira é muito divertida! Os participantes tentam acertar bolas na boca de um palhaço, que geralmente fica com uma grande boca desenhada ou uma abertura. É uma atividade que garante muitas risadas e animação na festa.</p>
-    </section>
-
-    <section>
-        <h2>Pescaria</h2>
-        <p>A pescaria é uma brincadeira clássica onde as crianças (e até adultos!) tentam pescar peixinhos de papel ou de plástico usando uma varinha com um anzol. Quem pegar o peixe ganha um prêmio e se diverte bastante!</p>
-    </section>
-
-    <section>
-        <h2>Correio Elegante</h2>
-        <p>O correio elegante é uma forma divertida de trocar mensagens secretas entre os participantes. Pode ser feito com bilhetinhos que são entregues de surpresa, criando um clima de mistério e paquera na festa.</p>
-    </section>
-
-    <section>
-        <h2>Cadeia</h2>
-        <p>Nessa brincadeira, quem é marcado por um participante fica preso em uma "cadeia" de pessoas. Para libertar alguém, é preciso que outro participante toque na cadeia, promovendo muita interação e risadas entre todos.</p>
-    </section>
-</body>
-</
+    <header>
+        <h1>Diversão na Festa Julhina
