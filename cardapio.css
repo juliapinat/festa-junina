@@ -41,8 +41,8 @@ body {
     }
 
     footer {
-      background-color:#ffcc00;
-      color: white;
+      background-color: #ffcc00;
       text-align: center;
-      padding: 15px;
+      padding: 10px;
+      border-top: 5px dashed #d2691e;
     }
