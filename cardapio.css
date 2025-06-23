@@ -7,9 +7,9 @@ body {
 
     header {
       background-color: #ffcc00;
-      color: white;
-      text-align: center;
       padding: 20px;
+      text-align: center;
+      border-bottom: 5px dashed #d2691e;
     }
 
     h2 {
