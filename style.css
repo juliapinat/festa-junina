@@ -40,6 +40,25 @@ body {
     section {
       margin-bottom: 20px;
     }
+    
+    .conteudo-com-imagem {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.texto {
+  max-width: 500px;
+}
+
+.imagem img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
     footer {
       background-color: #ffcc00;
       text-align: center;
