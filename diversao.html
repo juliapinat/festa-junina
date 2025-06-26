@@ -11,6 +11,7 @@
             color: #333;
             margin: 0;
             padding: 0;
+            font-family: 'Comic Sans MS', cursive;
         }
 
         header {
@@ -23,6 +24,20 @@
         h1 {
             margin: 0;
         }
+
+        .botao-voltar {
+          background-color: orange;
+          color: white;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+        } 
+
+        .botao-voltar:hover {
+          background-color: darkorange;
+        }   
 
         .content {
             padding: 20px;
@@ -79,6 +94,8 @@
 <header>
     <h1>Festa Junina: Diversão Garantida!</h1>
 </header>
+
+<button class="botao-voltar" onclick="history.back()">Voltar</button>
 
 <div class="content">
     <h2>As Brincadeiras Típicas de uma Festa Junina</h2>

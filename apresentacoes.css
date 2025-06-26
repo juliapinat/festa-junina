@@ -25,6 +25,19 @@ nav ul {
   padding: 10px;
   margin: 0;
 }
+.botao-voltar {
+      background-color: orange;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .botao-voltar:hover {
+      background-color: darkorange;
+    }
 
 nav ul li {
   margin: 0 15px;
