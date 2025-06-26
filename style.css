@@ -21,6 +21,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 10px;
+    font-size: 20px;
     }
 
     nav, ul, li {
@@ -31,6 +32,7 @@ body {
     color: #ffd034;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
     }
     main {
       padding: 20px;
