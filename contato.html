@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Fale Conosco</title>
+  <style>
+    body {
+      background: #fff8dc;
+      font-family: 'Comic Sans MS';
+      color: #5c3d00;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ffcc00;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 5px dashed #d2691e;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #005eff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #003fcc;
+    }
+  </style>
+</head>
+<body>
+
+    <header>
+        <h1>Fale Conosco</h1>
+    </header>
+
+  <form action="/enviar" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" placeholder="exemplo@escola.pr.gov.br"  required > 
+
+    <label for="turma">Turma:</label>
+    <input type="text" id="turma" name="turma">
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva aqui sua mensagem..." required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+</body>
+</html>
