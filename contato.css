@@ -69,3 +69,9 @@ body {
     .botao-voltar:hover {
       background-color: darkorange;
     }
+    footer {
+      background-color: #ffcc00;
+      text-align: center;
+      padding: 10px;
+      border-top: 5px dashed #d2691e;
+    }
