@@ -12,8 +12,11 @@ body {
 header {
   background-color:#ffcc00;
   color: #5c3d00;
-  padding: 20px 10px;
-  border-bottom: 5px dashed #d2691e;
+  padding: 10px;
+  border-bottom: 5px dashed #d2691e;display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
 }
 
 h1{
