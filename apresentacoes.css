@@ -12,12 +12,8 @@ body {
 header {
   background-color:#ffcc00;
   color: #5c3d00;
-  padding: 10px;
+  padding: 20px 10px;
   border-bottom: 5px dashed #d2691e;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 10px;
 }
 
 h1{
@@ -33,7 +29,6 @@ nav ul {
   margin: 0;
 }
 .botao-voltar {
-      margin-left: 10px;
       background-color: orange;
       color: white;
       padding: 8px 12px;
