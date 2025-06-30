@@ -62,3 +62,19 @@ body {
       padding: 10px;
       border-top: 5px dashed #d2691e;
     }
+
+    /*responsividade*/
+
+@media (max-width: 600px) {
+    nav, ul {
+        flex-direction: column;
+    }
+
+    nav, ul, li {
+        margin: 10px 0;
+    }
+
+    main{
+        padding: 5px;
+    }
+}
