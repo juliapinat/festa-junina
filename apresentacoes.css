@@ -64,8 +64,18 @@ section {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-h2 {
-  color: #d2691e;
+.principal {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #d2691e;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ffcc00;
+}
+
+.principal, h2 {
+    margin-bottom: 10px;
+    color: #5c3d00;
 }
 
 .video {
@@ -81,4 +91,5 @@ footer {
   position: relative;
   bottom: 0;
   width: 100%;
+  border-top: 5px dashed #d2691e;
 }
