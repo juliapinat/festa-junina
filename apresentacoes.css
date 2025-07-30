@@ -71,21 +71,12 @@ main {
 }
 
 .imagem {
- display: flex;
+      display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 30px;
       padding: 20px;
-}
-
-.img{
-   background-color: #fff;
-      border: 2px solid #ffa07a;
       border-radius: 10px;
-      width: 200px;
-      text-align: center;
-      padding: 10px;
-      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
 }
 
 
