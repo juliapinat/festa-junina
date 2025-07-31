@@ -100,4 +100,8 @@ footer {
     main{
         padding: 5px;
     }
+    img {
+        width: 60%;
+        height: auto;
+    }  
 }

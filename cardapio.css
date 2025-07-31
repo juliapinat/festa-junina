@@ -77,4 +77,11 @@ body {
     main{
         padding: 5px;
     }
+     img {
+        width: 60%;
+        height: auto;
+    }  
+    .menu-section {
+        grid-template-columns: 1fr;
+    }
 }
