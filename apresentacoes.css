@@ -67,6 +67,8 @@ main {
 
 .imagem{
   align-items: center;
+  border-radius: 8px;
+  padding: 10px;
 }
 
 .principal, h2 {
