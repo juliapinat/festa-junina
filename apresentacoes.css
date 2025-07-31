@@ -65,6 +65,11 @@ main {
     box-shadow: 0 0 5px #ffcc00;
 }
 
+.imagem{
+  text-align: center;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
 .principal, h2 {
     margin-bottom: 10px;
     color: #5c3d00;
