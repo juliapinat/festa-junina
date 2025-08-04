@@ -1,7 +1,7 @@
  body {
       font-family: Arial, sans-serif;
       margin: 20px;
-      background-color: #fff8dc;
+      background-color: #fdf4d1;
       margin: 0;
       padding: 0;
       font-family: 'Comic Sans MS';
@@ -62,7 +62,18 @@
         border-radius: 8px;
     }
 
-    h3 p{
+    h3, p{
        text-align: center;
        color: #5c3d00;
     }
+
+    footer {
+  background-color: #ffcc00;
+  text-align: center;
+  color: #5c3d00;
+  padding: 15px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  border-top: 5px dashed #d2691e;
+}
