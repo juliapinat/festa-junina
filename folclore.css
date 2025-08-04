@@ -1,15 +1,14 @@
  body {
       font-family: Arial, sans-serif;
       margin: 20px;
-      background: #fff8f0;
+      background-color: #fff8dc;
       margin: 0;
       padding: 0;
       font-family: 'Comic Sans MS';
     }
     header{
-    background-color: #ffcc00;
-      padding: 20px;
-      text-align: center;
+      background-color: #ffcc00;
+      padding: 10px;
       border-bottom: 5px dashed #d2691e;
     }
     h1 {
@@ -40,7 +39,7 @@
       text-align: center;
     }
     th {
-      background-color: #f4d03f;
+      background-color: #eec834;
     }
     .botao-voltar {
       background-color: orange;
@@ -57,5 +56,4 @@
     }
     img{
         border-radius: 8px;
-        width: 200px;
     }
