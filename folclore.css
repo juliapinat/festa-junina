@@ -28,7 +28,7 @@
       width: 50%;
     }
     img {
-      width: 400px;
+      width: 60%;
       height: auto;
       border-radius: 8px;
     }
@@ -36,6 +36,7 @@
       width: 80%;
       margin-top: 30px;
       border-collapse: collapse;
+      padding: 10px 50px;
       align-items: center;
       text-align: center;
     }
