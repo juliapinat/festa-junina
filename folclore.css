@@ -25,13 +25,12 @@
       margin-top: 20px;
     }
     .card {
-      width: 45%;
+      width: 50%;
     }
     img {
       width: 400px;
       height: auto;
       border-radius: 8px;
-      align-items: center;
     }
     table {
       width: 80%;
