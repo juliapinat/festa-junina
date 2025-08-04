@@ -55,3 +55,8 @@
     .botao-voltar:hover {
       background-color: darkorange;
     }
+    img{
+        border-radius: 8px;
+        width: 200px;
+        height: 200px;
+    }
