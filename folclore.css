@@ -28,14 +28,17 @@
       width: 45%;
     }
     img {
-      width: 200px;
+      width: 400px;
       height: auto;
       border-radius: 8px;
+      align-items: center;
     }
     table {
       width: 80%;
       margin-top: 30px;
       border-collapse: collapse;
+      align-items: center;
+      text-align: center;
     }
     td{
       background-color: beige;
