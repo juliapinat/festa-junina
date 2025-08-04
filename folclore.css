@@ -28,14 +28,17 @@
       width: 45%;
     }
     img {
-      width: 100%;
+      width: 200px;
       height: auto;
       border-radius: 8px;
     }
     table {
-      width: 100%;
+      width: 80%;
       margin-top: 30px;
       border-collapse: collapse;
+    }
+    td{
+      background-color: beige;
     }
     th, td {
       border: 1px solid #ccc;
@@ -57,9 +60,6 @@
 
     .botao-voltar:hover {
       background-color: darkorange;
-    }
-    img{
-        border-radius: 8px;
     }
 
     h3, p{
