@@ -1,76 +1,80 @@
  body {
-      font-family: Arial, sans-serif;
-      margin: 20px;
-      background-color: #fdf4d1;
-      margin: 0;
-      padding: 0;
-      font-family: 'Comic Sans MS';
-    }
-    header{
-      background-color: #ffcc00;
-      padding: 10px;
-      border-bottom: 5px dashed #d2691e;
-    }
-    h1 {
-      text-align: center;
-      color: #5c3d00;
-    }
-    h2 {
-      text-align: center;
-      color: #d2691e;
-    }
-    .container {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 20px;
-    }
-    .card {
-      width: 50%;
-    }
-    img {
-      width: 60%;
-      height: auto;
-      border-radius: 8px;
-    }
-    table {
-      width: 80%;
-      margin-top: 30px;
-      border-collapse: collapse;
-      padding: 10px 50px;
-      align-items: center;
-      text-align: center;
-    }
-    td{
-      background-color: beige;
-    }
-    th, td {
-      border: 1px solid #ccc;
-      padding: 8px;
-      text-align: center;
-    }
-    th {
-      background-color: #eec834;
-    }
-    .botao-voltar {
-      background-color: orange;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      font-size: 16px;
-      cursor: pointer;
-    }
+  font-family: 'Comic Sans MS', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdf4d1;
+}
 
-    .botao-voltar:hover {
-      background-color: darkorange;
-    }
+header {
+  background-color: #ffcc00;
+  padding: 10px;
+  border-bottom: 5px dashed #d2691e;
+}
 
-    h3, p{
-       text-align: center;
-       color: #5c3d00;
-    }
+h1, h2, h3, p {
+  text-align: center;
+  color: #5c3d00;
+}
 
-    footer {
+h2 {
+  color: #d2691e;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* centraliza a .container */
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centraliza imagem e texto dentro da card */
+  width: 50%;
+}
+
+img {
+  width: 60%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+table {
+  margin: 30px auto; /* centraliza a tabela horizontalmente */
+  width: 80%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #eec834;
+}
+
+td {
+  background-color: beige;
+}
+
+.botao-voltar {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.botao-voltar:hover {
+  background-color: darkorange;
+}
+
+footer {
   background-color: #ffcc00;
   text-align: center;
   color: #5c3d00;
